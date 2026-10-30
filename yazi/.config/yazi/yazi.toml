@@ -2,6 +2,9 @@
 show_hidden = false
 linemode = "all_info"
 
+[preview]
+wrap = "yes"
+
 [opener]
 edit = [
 	{ run = "${EDITOR:-nvim} %s", desc = "$EDITOR",      for = "unix", block = true },

@@ -15,4 +15,9 @@ map("v", "K", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv", { des
 map("n", "<leader>w", ":w<cr>", { desc = "Save" })
 map("n", "<leader>q", ":q<cr>", { desc = "Quit" })
 
--- Sebbe
+-- Select all
+map("n", "<C-a>", "ggVG", { desc = "Select all" })
+
+-- Keep cursor centered when scrolling
+map("n", "<C-d>", "<C-d>zz", { desc = "Scroll down (centered)" })
+map("n", "<C-u>", "<C-u>zz", { desc = "Scroll up (centered)" })

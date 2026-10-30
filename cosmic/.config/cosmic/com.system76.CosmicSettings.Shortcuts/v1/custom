@@ -1,0 +1,38 @@
+{
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Right",
+    ): MoveToOutput(Right),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "v",
+        description: Some("vscode"),
+    ): Spawn("code"),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Left",
+    ): MoveToOutput(Left),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "less",
+    ): System(Terminal),
+    (
+        modifiers: [],
+        key: "Menu",
+        description: Some("notepadqq"),
+    ): Spawn("notepadqq"),
+    (
+        modifiers: [],
+        key: "Print",
+    ): Spawn("flatpak run org.flameshot.Flameshot gui"),
+}

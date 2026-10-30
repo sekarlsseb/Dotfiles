@@ -1,0 +1,9 @@
+[user]
+	name = sekarlsseb
+	email = karlsson_sebasti@hotmail.com
+[pull]
+	rebase = true
+[credential]
+	helper = store
+[alias]
+  s = !git fetch && git status

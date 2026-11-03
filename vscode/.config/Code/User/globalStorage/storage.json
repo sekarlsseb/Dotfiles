@@ -1,0 +1,127 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8476af975a3a0b16dbc2dcd7282b430f2a143213ffb1a4ab0f4f10607c8e8ddf",
+    "telemetry.devDeviceId": "6454f0ca-186f-4f2a-aef9-fe9a674140c9",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1793649651402"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1793649651402": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "titleBarInactiveBackground": "#323233",
+            "activityBarBackground": "#333333",
+            "modernActivityBarBackground": "#333333",
+            "modernActivityBarInactiveBackground": "#333333",
+            "modernActivityBarBorder": "#252526",
+            "modernPanelBorder": "#252526",
+            "modernUIShellBackground": "#3c3c3c",
+            "modernUIInactiveShellBackground": "#323233",
+            "sideBarBackground": "#252526",
+            "panelBackground": "#1e1e1e",
+            "editorGroupBorder": "#444444",
+            "editorBorder": "#252526",
+            "surfaceBackground": "#252526",
+            "surfaceBorder": "#252526",
+            "agentsPanelBackground": "#252526",
+            "agentsPanelBorder": "#303031",
+            "statusBarBackground": "#007acc",
+            "statusBarInactiveBackground": "#1476b8",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 300,
+            "statusBarHeight": 28,
+            "windowBorder": false,
+            "modernUI": true,
+            "modernUICompact": false,
+            "partBounds": {
+                "activityBar": {
+                    "top": 35,
+                    "left": 4,
+                    "width": 44,
+                    "height": 986,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "auxiliaryBar": {
+                    "top": 35,
+                    "left": 1624,
+                    "width": 292,
+                    "height": 986,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "panel": {
+                    "top": 762.328125,
+                    "left": 52,
+                    "width": 1568,
+                    "height": 258.65625,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": false,
+                        "bottom": true
+                    }
+                },
+                "editor": {
+                    "top": 35,
+                    "left": 52,
+                    "width": 1568,
+                    "height": 723.328125,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": false
+                    }
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/sekarlsseb/.config/Code/Backups/1793649651402",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    }
+}

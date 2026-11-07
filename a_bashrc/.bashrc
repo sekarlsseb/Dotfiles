@@ -28,6 +28,9 @@ if [ -x /usr/bin/dircolors ]; then
   alias egrep='egrep --color=auto'
 fi
 
+# Select nvim as desault editor
+export EDITOR=/usr/bin/nvim
+
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
@@ -58,8 +61,6 @@ function y() {
   [ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd" || builtin true
   command rm -f -- "$tmp"
 }
-
-#PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\] $(parse_git_branch)\[\033[00m\]\$ '
 
 eval "$(oh-my-posh init bash --config /home/sekarlsseb/.config/ohmyposh/theme.json)"
 

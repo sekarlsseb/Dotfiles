@@ -14,6 +14,8 @@ map("v", "K", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv", { des
 
 map("n", "<leader>w", ":w<cr>", { desc = "Save" })
 map("n", "<leader>q", ":q<cr>", { desc = "Quit" })
+map("v", "<leader>w", ":w<cr>", { desc = "Save" })
+map("v", "<leader>q", ":q<cr>", { desc = "Quit" })
 
 -- Select all
 map("n", "<C-a>", "ggVG", { desc = "Select all" })

@@ -64,6 +64,4 @@ function y() {
 
 eval "$(oh-my-posh init bash --config /home/sekarlsseb/.config/ohmyposh/theme.json)"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-#export SDKMAN_DIR="$HOME/.sdkman"
-#[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+fastfetch

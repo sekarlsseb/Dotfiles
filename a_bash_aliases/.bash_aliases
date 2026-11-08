@@ -1,5 +1,5 @@
 alias c='clear'
-#alias pi-server='ssh sekarlsseb@seb-piserver'
+alias pi-server='kitten ssh sekarlsseb@seb-piserver'
 # alias python=python3.13
 alias ls='ls -l'
 alias ll='ls -alF'

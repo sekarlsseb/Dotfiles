@@ -17,6 +17,10 @@ map("n", "<leader>q", ":q<cr>", { desc = "Quit" })
 map("v", "<leader>w", ":w<cr>", { desc = "Save" })
 map("v", "<leader>q", ":q<cr>", { desc = "Quit" })
 
+-- Clipboard (parity with .vimrc)
+map({ "n", "v" }, "<leader>y", '"+y', { desc = "Yank to system clipboard" })
+map("v", "<leader>p", '"_dP', { desc = "Paste without overwriting register" })
+
 -- Select all
 map("n", "<C-a>", "ggVG", { desc = "Select all" })
 

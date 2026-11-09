@@ -5,19 +5,19 @@
   "code-runner.runInTerminal": true,
   "breadcrumbs.enabled": false,
   "window.zoomLevel": 0,
-  
+
   "files.exclude": {
     "**/.git": false,
   },
-  
+
   "auto-build.defaultEnv.name": "STM32F103RET6_creality",
-  
+
   "cmake.configureOnOpen": true,
-  
+
   "git.autofetch": true,
-  
+
   "liveServer.settings.donotShowInfoMsg": true,
-  
+
   "svg.preview.mode": "svg",
 
   "sqltools.useNodeRuntime": true,
@@ -30,7 +30,7 @@
   "editor.lineHeight": 1.7,
   "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": false,
-  
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
@@ -68,11 +68,10 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    }
+      "source.organizeImports": "explicit",
+    },
   },
   "go.toolsManagement.autoUpdate": true,
-
 
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
@@ -184,8 +183,8 @@
     },
     { "before": ["leader", "f"], "commands": ["editor.action.formatDocument"] },
     {
-        "before": ["<leader>", "p"],
-        "after": ["\"", "_", "d", "P"]
+      "before": ["<leader>", "p"],
+      "after": ["\"", "_", "d", "P"],
     },
     {
       "before": ["g", "h"],
@@ -197,15 +196,15 @@
     },
     {
       "before": ["leader", "r"],
-      "commands": ["editor.action.goToReferences"]
+      "commands": ["editor.action.goToReferences"],
     },
     {
       "before": ["leader", "e"],
-      "commands": ["editor.action.marker.next"]
+      "commands": ["editor.action.marker.next"],
     },
     {
       "before": ["leader", "E"],
-      "commands": ["editor.action.marker.prev"]
+      "commands": ["editor.action.marker.prev"],
     },
   ],
   "vim.visualModeKeyBindings": [
@@ -217,11 +216,15 @@
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
-
   ],
   // To improve performance
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
   },
   "terminal.integrated.initialHint": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.formatOnSave": true,
+  "git.confirmSync": false,
 }

@@ -1,0 +1,13 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "aiOverviewControl": {
+      "repo": "https://github.com/bernardopg/AiOverviewControl",
+      "commit": "e8632e73d2aca4a7baea9d001ab8ecc0bddb702d"
+    },
+    "calculator": {
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "commit": "a27b80ad8c3dd42da11af83461674fb362817515"
+    }
+  }
+}

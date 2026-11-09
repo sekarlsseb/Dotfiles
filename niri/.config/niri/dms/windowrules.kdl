@@ -1,16 +1,22 @@
-// DMS Window Rules - Managed by Dux Shell
+// DMS Window Rules - Managed by Dux Modular Shell
 // Do not edit manually - changes may be overwritten
-
-// @id=dms-floating-windows @name=DMS Floating Windows
-window-rule {
-    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
-    open-floating true
-}
 
 // @id=wr_1793994456770349633 @name=brave-browser
 window-rule {
     match app-id="^brave-browser$"
     open-maximized true
+}
+
+// @id=wr_1794161526989347898 @name=com.anthropic.Claude
+window-rule {
+    match app-id="^com.anthropic.Claude$"
+    open-maximized true
+}
+
+// @id=wr_1794163897599828311 @name=optix-conf
+window-rule {
+    match app-id="^optix-conf$"
+    open-floating true
 }
 
 // @id=dms-window-opaque @name=DMS Window Opaque

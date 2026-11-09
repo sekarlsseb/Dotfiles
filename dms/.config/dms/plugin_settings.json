@@ -1,0 +1,13 @@
+{
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "aiOverviewControl": {
+    "enabled": true,
+    "costCurrency": "EUR",
+    "pillProviders": "claude,copilot",
+    "providerSelection": "claude,copilot",
+    "pinnedProviders": "claude"
+  }
+}

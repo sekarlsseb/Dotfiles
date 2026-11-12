@@ -3,7 +3,7 @@
   "plugins": {
     "aiOverviewControl": {
       "repo": "https://github.com/bernardopg/AiOverviewControl",
-      "commit": "076194c73bff238c855dc74e54cb1783f3bac594"
+      "commit": "c431a5f54eaf8a9714fcd11c6d689173329c135b"
     },
     "calculator": {
       "repo": "https://github.com/rochacbruno/DankCalculator",

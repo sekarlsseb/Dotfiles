@@ -64,6 +64,10 @@ binds {
     Mod+Shift+Up hotkey-overlay-title="Move window up / to workspace above" { move-window-up-or-to-workspace-up; }
     Mod+U { focus-workspace-down; }
     Mod+Up hotkey-overlay-title="Focus window up / workspace above" { focus-window-or-workspace-up; }
+    Mod+Left { focus-column-or-monitor-left; }
+    Mod+H { focus-column-or-monitor-left; }
+    Mod+L { focus-column-or-monitor-right; }
+    Mod+Right { focus-column-or-monitor-right; }
     Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp cooldown-ms=150 { focus-workspace-up; }
     Alt+Print { screenshot-window; }
@@ -86,16 +90,12 @@ binds {
     Mod+Ctrl+WheelScrollRight { move-column-right; }
     Mod+End { focus-column-last; }
     Mod+Equal { set-column-width "+10%"; }
-    Mod+H { focus-column-left; }
     Mod+Home { focus-column-first; }
-    Mod+L { focus-column-right; }
-    Mod+Left { focus-column-left; }
     Mod+M { maximize-column; }
     Mod+Minus { set-column-width "-10%"; }
     Mod+Period { expel-window-from-column; }
     Mod+Q repeat=false { close-window; }
     Mod+R { switch-preset-column-width; }
-    Mod+Right { focus-column-right; }
     Mod+Shift+Ctrl+Down { move-column-to-monitor-down; }
     Mod+Shift+Ctrl+H { move-column-to-monitor-left; }
     Mod+Shift+Ctrl+J { move-column-to-monitor-down; }

@@ -6,8 +6,8 @@
   "aiOverviewControl": {
     "enabled": true,
     "costCurrency": "EUR",
-    "pillProviders": "claude,copilot",
-    "providerSelection": "claude,copilot",
+    "pillProviders": "claude",
+    "providerSelection": "claude",
     "pinnedProviders": "claude"
   }
 }

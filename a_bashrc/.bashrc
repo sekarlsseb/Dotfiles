@@ -30,6 +30,7 @@ fi
 
 # Select nvim as desault editor
 export EDITOR=/usr/bin/nvim
+export VISUAL=/usr/bin/nvim
 
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then

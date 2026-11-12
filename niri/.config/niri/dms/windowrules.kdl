@@ -16,7 +16,7 @@ window-rule {
 // @id=wr_1794163897599828311 @name=optix-conf
 window-rule {
     match app-id="^optix-conf$"
-    open-floating true
+    open-floating false
 }
 
 // @id=dms-window-opaque @name=DMS Window Opaque

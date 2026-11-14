@@ -19,6 +19,11 @@ vnoremap <Leader>y "+y
 " Select all
 nnoremap <C-a> ggVG
 
+" Go to last char of the line
+nnoremap - g_
+xnoremap - g_
+onoremap - g_
+
 " Keep cursor centered when scrolling
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz

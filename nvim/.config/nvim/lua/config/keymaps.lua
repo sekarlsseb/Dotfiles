@@ -27,3 +27,6 @@ map("n", "<C-a>", "ggVG", { desc = "Select all" })
 -- Keep cursor centered when scrolling
 map("n", "<C-d>", "<C-d>zz", { desc = "Scroll down (centered)" })
 map("n", "<C-u>", "<C-u>zz", { desc = "Scroll up (centered)" })
+
+-- Move to last char of the line
+vim.keymap.set({ "n", "x", "o" }, "-", "g_")

@@ -266,7 +266,31 @@
       "trigger": "?"
     }
   },
-  "desktopWidgetInstances": [],
+  "desktopWidgetInstances": [
+    {
+      "id": "dw_1794639096001_rhs6i27dt",
+      "widgetType": "dankRssWidget",
+      "name": "Dank RSS Widget",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          {
+            "name": "eDP-1",
+            "model": "0x1521"
+          }
+        ],
+        "feeds": [
+          {
+            "name": "Arch Linux",
+            "url": "https://archlinux.org/feeds/news",
+            "enabled": true,
+            "addedAt": 1794639352674,
+            "intervalMinutes": 0
+          }
+        ]
+      }
+    }
+  ],
   "osdAlwaysShowValue": false,
   "osdPositionOverrides": {
     "volume": 7,
@@ -331,7 +355,7 @@
     {
       "id": "lock_notifications",
       "widgetType": "lockNotifications",
-      "enabled": true,
+      "enabled": false,
       "config": {
         "displayPreferences": [
           "all"
@@ -343,7 +367,7 @@
     {
       "id": "lock_status",
       "widgetType": "lockStatus",
-      "enabled": true,
+      "enabled": false,
       "config": {
         "displayPreferences": [
           "all"
@@ -422,7 +446,7 @@
     {
       "id": "lock_status",
       "widgetType": "lockStatus",
-      "enabled": true,
+      "enabled": false,
       "config": {
         "displayPreferences": [
           "all"
@@ -465,5 +489,6 @@
   "batteryLockTimeout": 60,
   "batteryMonitorTimeout": 300,
   "batteryPostLockMonitorTimeout": 15,
-  "batterySuspendTimeout": 900
+  "batterySuspendTimeout": 900,
+  "lockScreenShowWeather": false
 }

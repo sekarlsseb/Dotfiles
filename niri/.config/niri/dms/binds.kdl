@@ -121,11 +121,11 @@ binds {
     Mod+Shift+P { power-off-monitors; }
     Ctrl+Print { screenshot-screen; }
     Ctrl+XF86Launch1 { screenshot-screen; }
-    Print { screenshot; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
     Mod+B hotkey-overlay-title="Open Brave browser" { spawn "brave"; }
     Mod+T hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+    Print hotkey-overlay-title="Flameshot" { spawn "flameshot" "gui"; }
     Mod+D repeat=false { toggle-overview; }
     Mod+Shift+Slash { show-hotkey-overlay; }
     Mod+Tab repeat=false { toggle-overview; }

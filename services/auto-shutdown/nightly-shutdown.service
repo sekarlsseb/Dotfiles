@@ -1,0 +1,6 @@
+[Unit]
+Description=Automatic Nightly Shutdown
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl poweroff

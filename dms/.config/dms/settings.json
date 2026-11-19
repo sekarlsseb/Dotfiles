@@ -287,7 +287,9 @@
             "addedAt": 1794639352674,
             "intervalMinutes": 0
           }
-        ]
+        ],
+        "markReadOnScroll": true,
+        "viewMode": "expanded"
       }
     }
   ],
